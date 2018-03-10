@@ -6,8 +6,9 @@
 }
 
 body {
-  background: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background: url("./Static/img/bg.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .heading {
