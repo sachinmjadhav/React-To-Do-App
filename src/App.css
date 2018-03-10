@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+}
