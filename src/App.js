@@ -64,7 +64,9 @@ class App extends Component {
         <div className="container">
             <div className="row display-2 text-center mt-2">
                 <div className="col">
-                    <div className="text-white">React and Firebase To-Do List</div>
+                    <div className="text-white heading">
+                        <h1>React & Firebase To-Do List</h1>
+                    </div>
                 </div>
             </div>
             <div>

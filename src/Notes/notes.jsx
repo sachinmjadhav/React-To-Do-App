@@ -18,17 +18,17 @@ class Note extends  Component {
     render(){
         return(
             <div className="row mt-2">
-                <div className="col-md-3"></div>
-                <div className="col-md-6 bg-light border border-warning text-dark font-weight-bold">
+                <div className="col-md-3 col-sm-2"></div>
+                <div className="col-md-6 col-sm-8 bg-light border border-warning text-dark font-weight-bold">
                     <div className="">
                         <span className="closebtn"
                               onClick={() => this.handleRemoveNote(this.noteId)}>
                             &times;
                         </span>
-                        <p className="display-4 text-center justify-content-center">{ this.noteContent }</p>
+                        <h2 className="text-center align-content-center">{ this.noteContent }</h2>
                     </div>
                 </div>
-                <div className="col-md-3"></div>
+                <div className="col-md-3 col-sm-2"></div>
             </div>
         );
     }

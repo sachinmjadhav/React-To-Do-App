@@ -9,3 +9,7 @@ body {
   background: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
   background-attachment: fixed;
 }
+
+.heading {
+    font-size: 5vw;
+}
